@@ -1,0 +1,25 @@
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.button {
+   color: aliceblue;
+   height: 30px;
+   width: 100%;
+   border-radius: 6px;
+   margin-top: 15px;
+   background-color: #689613;
+}
+
+.button:disabled {
+   background-color: #A1D14973;
+}
